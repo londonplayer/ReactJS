@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'monaco';
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #FFC3A0 0%, #ffafbd 100%);
+    color: #ffffffe5;
+}
+
+button {
+    background: #7D84B2;
+    color: #fff;
+    padding: 0 45px;
+    border: 2px solid white;
+    border-radius: 25px;
+    height: 50px;
+    text-transform: uppercase;
+    font-family: 'monaco';
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    /* transition-duration: .3s; */
+    /* transform: .4s; */
+}
+
+button:hover {
+    background-color: #333333;
+}
